@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require "tt/grafeno"
+require 'tt/grafeno/question_1'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
