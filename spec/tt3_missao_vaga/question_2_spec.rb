@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-RSpec.describe Tt::Grafeno::Question2 do
+RSpec.describe Tt3MissaoVaga::Question2 do
   it "output format default" do
     test_input = get_test_input
     expected_output = get_expected_output
@@ -12,14 +12,14 @@ RSpec.describe Tt::Grafeno::Question2 do
   it "output format 1" do
     test_input = get_test_input
     expected_output = get_expected_output("format_1")
-    test_subject = described_class.new.solution(test_input, "spec/tt/format_1.yml")
+    test_subject = described_class.new.solution(test_input, "spec/tt3_missao_vaga/format_1.yml")
     expect(expected_output).to eq(test_subject)
   end
 
   it "output format 2" do
     test_input = get_test_input
     expected_output = get_expected_output("format_2")
-    test_subject = described_class.new.solution(test_input, "spec/tt/format_2.yml")
+    test_subject = described_class.new.solution(test_input, "spec/tt3_missao_vaga/format_2.yml")
     expect(expected_output).to eq(test_subject)
   end
 

@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
-require "tt/grafeno"
-require 'tt/grafeno/question_1'
-require 'tt/grafeno/question_2'
-require 'tt/grafeno/question_3'
+require "tt3_missao_vaga"
+require 'tt3_missao_vaga/question_1'
+require 'tt3_missao_vaga/question_2'
+require 'tt3_missao_vaga/question_3'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

@@ -1,10 +1,9 @@
-# frozen_string_literal: true
 
-require_relative "lib/tt/grafeno/version"
+require_relative "lib/tt3_missao_vaga/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "tt-grafeno"
-  spec.version = Tt::Grafeno::VERSION
+  spec.name = "tt3-missao_vaga"
+  spec.version = Tt3MissaoVaga::VERSION
   spec.authors = ["Marco Castro"]
   spec.email = ["marcodotcastro@gmail.com"]
 

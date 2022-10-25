@@ -1,6 +1,6 @@
 # frozen_string_literal: false
 
-RSpec.describe Tt::Grafeno::Question3 do
+RSpec.describe Tt3MissaoVaga::Question3 do
 
   it "output format 1" do
     test_input = "97905796671Maria Neusa de00001234"

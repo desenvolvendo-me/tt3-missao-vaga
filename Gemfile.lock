@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    tt-grafeno (0.1.0)
+    tt3-missao_vaga (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -49,7 +49,7 @@ DEPENDENCIES
   rake (~> 13.0)
   rspec (~> 3.0)
   rubocop (~> 1.21)
-  tt-grafeno!
+  tt3-missao_vaga!
 
 BUNDLED WITH
    2.3.3

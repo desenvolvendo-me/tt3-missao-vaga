@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-RSpec.describe Tt::Grafeno::Question1 do
+RSpec.describe Tt3MissaoVaga::Question1 do
   it "output" do
     test_input = [
       {

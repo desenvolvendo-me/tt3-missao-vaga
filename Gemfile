@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in tt-grafeno.gemspec
+# Specify your gem's dependencies in tt3-missao-vaga.gemspec
 gemspec
 
 gem "rake", "~> 13.0"

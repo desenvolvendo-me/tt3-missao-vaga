@@ -1,7 +1,7 @@
 require "yaml"
 
-class Tt::Grafeno::Question3
-  PATH = "lib/tt/grafeno/".freeze
+class Tt3MissaoVaga::Question3
+  PATH = "lib/tt3_missao_vaga/".freeze
 
   def solution(arg, format_path = "#{PATH}format.yml")
     format_settings = load_format_settings(format_path)

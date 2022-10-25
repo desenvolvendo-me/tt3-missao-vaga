@@ -1,4 +1,4 @@
-class Tt::Grafeno::Question1
+class Tt3MissaoVaga::Question1
   def solution(arg)
     arg.map(&method(:format_output)).join("\n")
   end
